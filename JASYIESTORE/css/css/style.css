@@ -1,0 +1,2920 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* body{
+    /* background-color: #bab6a9; */
+  
+   
+@media only screen and (max-width:10000px) and (min-width:1300px) {
+li{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+header{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box;
+    
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+header .logo{
+    float: left;
+    height: 40px ;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.searchbox{
+    display: inline;
+    padding-left: 70px;
+}
+header .searchbox > input{
+width: 45%;
+margin-top:22px ;
+padding: 6px 16px;
+border-radius: 4px 10px;
+border: 0px black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-search{
+    background-color: white;
+margin-left: -40px;
+text-decoration: none;
+color: #FBB710;
+}
+ header nav {
+    float: right;
+
+    
+}
+header nav ul{
+ padding: 0px;
+ margin: 0px;
+ display: flex;
+
+}
+header nav ul li {
+    list-style: none;
+    padding-left: 14px;
+    color: white;
+    margin: 25px 0px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 10px;
+
+}
+header nav ul li a{
+
+    color: white;
+}
+header nav ul li a:hover{
+   color: orange;
+   transition-duration: 0.5s;
+   transition:ease 0.8s;
+}
+.fa-cart-plus{
+font-size: 22px;
+padding-right: 6px;
+color: orange;
+
+}
+form{
+    display: inline;
+}
+
+footer{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box; 
+    bottom: 0;
+    position: static;
+    left: 0;
+    right: 0;
+    padding: 0 80px;
+    display: flex;
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .logo-foot{
+    float: left;
+    height: 40px ;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-right: 10px;
+    
+
+}
+ footer .aboutus{
+     display: inline-block;
+     margin: 40px 0px;
+     padding: 10px 30px;
+     
+    }
+ footer .aboutus ul .foot-heading{
+color: orange;
+font-size: 14px;
+font-style: italic;
+padding-bottom: 6px;
+
+ }
+footer .aboutus ul li{
+    padding: 4px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+}
+
+footer .customercare{
+    display: inline-block;
+    margin: 30px 0px;
+    padding: 20px 30px;
+}
+footer .customercare ul .foot-heading2{
+    color: orange;
+    font-size: 14px;
+    font-style: italic;
+    
+    
+     }
+    footer .customercare ul li{
+        padding: 2px 0px;
+        font-size: 12px;
+        color: blanchedalmond;
+    }
+
+footer .info-foot{
+    display: inline-block;
+    
+    margin: 20px 0px ;
+    padding: 10px 20px;
+    
+}
+footer .info-foot ul .info-Q{
+color: orange;
+padding-bottom: 6px;
+font-size: 15px;
+font-style: italic;
+}
+footer .info-foot ul li{
+    padding: 10px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+footer .followus{
+    
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 35px;
+   
+}
+footer .followus ul{
+    padding-top: 0px;
+    padding-right: 180px;
+}
+footer .followus ul li{
+ display:inline-flex;
+    padding: 5px 0px;
+}
+footer .followus ul li>p{
+color: orange;
+font-size: 18px;
+font-style: italic;
+}
+footer .followus ul li>i{
+    font-size: 19px;
+color: blanchedalmond;
+padding-left: 4px;
+}
+.copyrights{
+background-color: #252525;
+color: #FBB710;
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 10px 0px;
+width: 100%;
+bottom: 0%;
+top: 0;
+}
+.copyrights>p{
+    float: right;
+    display: block;
+    padding-right: 60px;
+
+}
+.copyrights>img{
+    height: 40px;
+    margin: 00px 80px;
+}
+/* HEAD NAV AND FOOTER END HERE */
+.afterheadNav{
+    background-color: #252525;
+    box-sizing: border-box;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 5px 0px 30px 10px #FBB710;
+    z-index: 2;
+    
+    
+}
+.fa-user{
+font-size: 22px;
+display: inline-block;
+color: blanchedalmond;
+padding-left: 30px;
+margin-left: 100px;
+}
+.afterheadNav> ul{
+    position: relative;
+    display: inline-flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+   
+    
+}
+.afterheadNav >ul> li> a{
+    color: #FBB710;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+.afterheadNav >ul> li> .dropdown {
+    position: absolute;
+    background-color: #fff ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 40px 40px;
+    margin-top: 5px;
+    box-shadow: 5px 0px 25px 0px #FBB710;
+      color: #4E605F;
+      display: none;
+      right: 0;
+
+}
+.afterheadNav >ul> li> .dropdown-brands {
+    position: absolute;
+    background-color: #fff ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+    padding: 40px 40px;
+    margin-top: 5px;
+    box-shadow: 5px 0px 25px 0px #FBB710;
+      color: #4E605F;
+   right: 0;
+   display: none;
+   width: 100%;
+   transition-duration: 0.6s;
+     
+}
+.afterheadNav>ul>li>.dropdown-brands>li{
+    display: inline-block;
+    padding: 0px 5px;
+    transition-duration: 0.6s;
+    
+}
+/* .afterheadNav>ul>li>.dropdown>li{
+    display: inline-block;
+    padding: 0px 5px;
+    transition-duration: 0.6s;
+    
+} */
+.afterheadNav>ul>li>.dropdown-brands>li>img{
+height: 50px;
+
+}
+.afterheadNav ul li:hover> .dropdown-brands{
+    display: block;
+    transition-duration: 0.6s;
+    box-shadow: inset -1px -1px 20px;
+}
+.afterheadNav ul li:hover> .dropdown {
+display:block;
+color: orange;
+}
+
+#BthSan{
+    font-size: 18px;
+
+}
+.afterheadNav >ul >li> ul> li> a{
+color: #4E605F;
+display: block;
+}
+
+
+
+.fa-caret-down{
+    padding-left: 10px;
+}
+.menu-toggle{
+    position: absolute;
+right: 0;
+top: 0;
+padding: 20px 30px;
+font-size: 25px;
+display: none;
+}
+
+/* products table starts */
+.product-tab-1{
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.tab-head-1{
+    padding: 10px 20px;   
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+.bs-tab1{
+    display: inline-block;
+    padding: 5px 12px;
+    color: #252525;
+    font-size: 20px;
+}
+.tab-head-1> .tab1-head-action1{
+    display: inline-flex;
+    padding-left: 50px;
+    float: right;
+padding: 10px 0px;
+padding-right: 20px;
+}
+
+.tab-head-1>.tab1-head-action1>li>a{
+    color:blanchedalmond;
+    margin-left: 20px;
+    background-color: #4E605F;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+    
+}
+.Bsanitary-products-cont{
+    display: inline-flex;
+    overflow: hidden;
+margin: 30px 0px;
+text-align: justify;
+}
+.products-img{
+    height: 150px;
+}
+
+.Bsanitary-prod-1{
+    padding: 20px 20px;
+display: inline-block;
+transition-duration: 0.6s;
+
+}
+.Bsanitary-prod-1:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-2{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-2:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-3{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-3:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-4{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-4:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-5{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-5:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-6{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-6:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.product-info{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+
+}
+.item-info{
+    padding: 10px 0px;
+color:#FBB710;
+display: inline-block;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+padding: 5px 0px;
+font-size: 18px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-add{
+    margin-top: 10px;
+padding:10px 10px;
+background-color: #252525;
+border: none;
+color: #FBB710;
+border-radius: 5px;
+font-size: 14px;
+text-transform: uppercase;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+display: none;
+}
+.shopnow-btn{
+    margin-top: 5px;
+    padding:10px 18px;
+    background-color: #252525;
+    border: none;
+    color: #FBB710;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    cursor: pointer;
+    display: none;
+}
+.shopnow-btn>a{
+    color: #FBB710;
+}
+.Bsanitary-prod-1:hover>.product-info>form>.item-add {
+display:inline-block;
+
+}
+.Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+    display: inline-block;
+}
+
+.Bsanitary-prod-2:hover>.product-info>form>.item-add {
+    display:inline-block;
+    
+    }
+    .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+        display: inline-block;
+    }
+    .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            
+            .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:1300px) and (min-width:1170px) {
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+form{
+    display: inline;
+}
+
+header{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box;
+  
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+header .logo{
+    float: left;
+    height: 40px ;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.searchbox{
+    display: inline;
+    padding-left: 70px;
+}
+header .searchbox > input{
+width: 45%;
+margin-top:22px ;
+padding: 6px 16px;
+border-radius: 4px 10px;
+border: 0px black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-search{
+    background-color: white;
+margin-left: -40px;
+text-decoration: none;
+color: #FBB710;
+}
+ header nav {
+    float: right;
+
+    
+}
+header nav ul{
+ padding: 0px;
+ margin: 0px;
+ display: flex;
+
+}
+header nav ul li {
+    list-style: none;
+    padding-left: 14px;
+    color: white;
+    margin: 25px 0px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 10px;
+
+}
+header nav ul li a{
+
+    color: white;
+}
+.fa-cart-plus{
+font-size: 22px;
+padding-right: 6px;
+color: orange;
+
+}
+header nav ul li a:hover{
+    color: orange;
+    transition-duration: 0.5s;
+    transition:ease 0.8s;
+ }
+footer{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box; 
+    bottom: 0;
+
+    left: 0;
+    right: 0;
+    padding: 0 80px;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .logo-foot{
+    float: left;
+    height: 40px ;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-right: 10px;
+    
+
+}
+ footer .aboutus{
+     display: inline-block;
+     margin: 40px 0px;
+     padding: 10px 30px;
+     
+    }
+ footer .aboutus ul .foot-heading{
+color: orange;
+font-size: 14px;
+font-style: italic;
+padding-bottom: 6px;
+
+ }
+footer .aboutus ul li{
+    padding: 4px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+}
+
+footer .customercare{
+    display: inline-block;
+    margin: 30px 0px;
+    padding: 20px 30px;
+}
+footer .customercare ul .foot-heading2{
+    color: orange;
+    font-size: 14px;
+    font-style: italic;
+    
+    
+     }
+    footer .customercare ul li{
+        padding: 2px 0px;
+        font-size: 12px;
+        color: blanchedalmond;
+    }
+
+footer .info-foot{
+    display: inline-block;
+    
+    margin: 20px 0px ;
+    padding: 10px 20px;
+    
+}
+footer .info-foot ul .info-Q{
+color: orange;
+padding-bottom: 6px;
+font-size: 15px;
+font-style: italic;
+}
+footer .info-foot ul li{
+    padding: 10px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+footer .followus{
+    
+    display: inline-block;
+    padding-left: 5px;
+    padding-top: 35px;
+   
+}
+footer .followus ul{
+    padding-top: 0px;
+    padding-right: 180px;
+}
+footer .followus ul li{
+ display:inline-flex;
+    padding: 5px 0px;
+}
+footer .followus ul li>p{
+color: orange;
+font-size: 18px;
+font-style: italic;
+}
+footer .followus ul li>i{
+    font-size: 19px;
+color: blanchedalmond;
+padding-left: 4px;
+}
+
+.copyrights{
+    background-color: #252525;
+    color: #FBB710;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+    width: 100%;
+    bottom: 0%;
+    top: 0;
+    }
+    .copyrights>p{
+        float:right;
+        display: block;
+        padding-right: 60px;
+    
+    }
+    .copyrights>img{
+        height: 40px;
+        margin: 00px 80px;
+    }
+    .afterheadNav{
+        background-color: #252525;
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        box-shadow: 5px 0px 30px 10px #FBB710;
+        z-index: 2;
+        
+        
+        
+    }
+    .fa-user{
+    font-size: 22px;
+    display: block;
+    position: absolute;
+    color: blanchedalmond;
+    left: 0;
+top: 0;
+padding: 20px 135px;
+    }
+
+    .afterheadNav> ul{
+        display: inline-flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 300px;
+        
+    }
+    .afterheadNav ul> li> a{
+        color: #FBB710;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 20px;
+    }
+    .afterheadNav >ul> li> .dropdown{
+        position: absolute;
+        background-color: #fff ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 50%;
+        padding: 40px 40px;
+        margin-top: 5px;
+        box-shadow: 5px 0px 25px 0px #FBB710;
+        display: none;
+        color: #4E605F;
+     
+    
+    }
+    .afterheadNav ul li:hover> .dropdown {
+    display:block;
+    }
+    .afterheadNav ul li:hover> .dropdown-brands {
+        display:block;
+        }
+    #BthSan{
+        font-size: 18px;
+    }
+    .afterheadNav >ul >li> ul> li> a{
+    color: #4E605F;
+    }
+    .afterheadNav>ul>li>.dropdown-brands{
+        position: absolute;
+        background-color: #fff ;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 50%;
+        padding: 40px 30px;
+        margin-top: 5px;
+        box-shadow: 5px 0px 25px 0px #FBB710;
+        display: none;
+        color: #4E605F;
+        margin-left: -120px;
+        text-align: center;
+
+    }
+    .dropdown-brands>li{
+        display: inline-block;
+    }
+    .dropdown-brands>li>img{
+        height: 50px;
+        padding: 0px 5px;
+        transition-duration: 0.6s;
+    }
+    
+    
+
+
+    .fa-caret-down{
+        padding-left: 10px;
+    }
+    .menu-toggle{
+                                                                                   position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 30px;
+    font-size: 25px;
+    display: none;
+    }
+    /* products table starts */
+.product-tab-1{
+margin: 0px 80px;
+margin-top: 10px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.tab-head-1{
+    padding: 10px 20px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+.products-img{
+    height: 120px;
+}
+.bs-tab1{
+    display: inline-block;
+    padding: 5px 12px;
+    color: #252525;
+    font-size: 20px;
+}
+.tab-head-1> .tab1-head-action1{
+    display: inline-flex;
+    padding-left: 50px;
+    float: right;
+padding: 10px 0px;
+padding-right: 20px;
+}
+
+.tab-head-1>.tab1-head-action1>li>a{
+    color:blanchedalmond;
+    margin-left: 20px;
+    background-color: #4E605F;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+    
+}
+.Bsanitary-products-cont{
+    display: inline-flex;
+    overflow: hidden;
+margin: 30px 0px;
+text-align: justify;
+}
+
+.Bsanitary-prod-1{
+    padding: 20px 20px;
+display: inline-block;
+transition-duration: 0.6s;
+
+}
+.Bsanitary-prod-1:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-2{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-2:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-3{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-3:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.Bsanitary-prod-4{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-4:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-5{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-5:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-6{
+    padding: 20px 20px;
+    display: inline-block;
+    transition-duration: 0.6s;
+}
+.Bsanitary-prod-6:hover{
+    box-shadow: inset -1px -1px 20px;
+    cursor: pointer;
+}
+.product-info{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+
+}
+.item-info{
+    padding: 10px 0px;
+color:#FBB710;
+display: inline-block;
+font-size: 14px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.price{
+padding: 5px 0px;
+font-size: 18px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.item-add{
+    margin-top: 10px;
+padding:10px 10px;
+background-color: #252525;
+border: none;
+color: #FBB710;
+border-radius: 5px;
+font-size: 14px;
+text-transform: uppercase;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+cursor: pointer;
+display: none;
+}
+.shopnow-btn{
+    margin-top: 5px;
+    padding:10px 18px;
+    background-color: #252525;
+    border: none;
+    color: #FBB710;
+    border-radius: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    cursor: pointer;
+    display: none;
+}
+.shopnow-btn>a{
+    color: #FBB710;
+}
+.Bsanitary-prod-1:hover>.product-info>form>.item-add {
+display:inline-block;
+
+}
+.Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+    display: inline-block;
+}
+
+.Bsanitary-prod-2:hover>.product-info>form>.item-add {
+    display:inline-block;
+    
+    }
+    .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+        display: inline-block;
+    }
+    .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            
+            .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:1170px) and (min-width:760px) {
+    form{
+        display: inline;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none !important;
+    }
+    
+    
+    header{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        padding-bottom: 20px;
+        top: 0;
+        left: 0;
+        padding: 0 100px;
+    
+    }
+    header .logo{
+        float: left;
+        height: 40px ;
+        font-size: 24px;
+  
+        margin:10px 0px;
+    }
+    .searchbox{
+        display: inline;
+        padding-left: 140px;
+    }
+    header .searchbox > input{
+    width: 55%;
+    margin-top:22px ;
+    padding: 6px 16px;
+    border-radius: 4px 10px;
+    border: 0px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .fa-search{
+        background-color: white;
+    margin-left: -40px;
+    text-decoration: none;
+    color: #FBB710;
+    }
+     header nav {
+    clear: both;
+    display: inline-block;
+     padding-bottom: 18px;
+    padding-top: 10px;
+        
+    }
+    header nav ul{
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     padding-left: 200px;
+     display: inline-block;
+    
+    }
+    header nav ul li {
+        list-style: none;
+        padding-left: 14px;
+        color: white;
+        margin: 25px 0px;
+        display: inline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 10px;
+    
+    }
+    header nav ul li a:hover{
+        color: orange;
+        transition-duration: 0.5s;
+        transition:ease 0.8s;
+     }
+    header nav ul li a{
+    
+        color: white;
+    }
+    .fa-cart-plus{
+    font-size: 22px;
+    padding-right: 6px;
+    color: orange;
+    
+    }
+    footer{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+        bottom: 0;
+        
+        left: 0;
+        padding: 0 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    footer .logo-foot{
+        float: left;
+        height: 40px ;
+        font-size: 24px;
+        margin-top: 80px;
+        margin-right: 10px;
+        
+    
+    }
+     footer .aboutus{
+         display: inline-block;
+         margin: 40px 0px;
+         padding: 10px 30px;
+         
+        }
+     footer .aboutus ul .foot-heading{
+    color: orange;
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 6px;
+    
+     }
+    footer .aboutus ul li{
+        padding: 4px 0px;
+        font-size: 12px;
+        color: blanchedalmond;
+    }
+    
+    footer .customercare{
+        display: inline-block;
+        margin: 30px 0px;
+        padding: 20px 30px;
+    }
+    footer .customercare ul .foot-heading2{
+        color: orange;
+        font-size: 14px;
+        font-style: italic;
+        
+        
+         }
+        footer .customercare ul li{
+            padding: 2px 0px;
+            font-size: 12px;
+            color: blanchedalmond;
+        }
+    
+    footer .info-foot{
+        display: inline-block;
+        
+        margin: 20px 0px ;
+        padding: 10px 20px;
+        
+    }
+    footer .info-foot ul .info-Q{
+    color: orange;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-style: italic;
+    }
+    footer .info-foot ul li{
+        padding: 10px 0px;
+        font-size: 12px;
+        color: blanchedalmond;
+        text-align: justify;
+    }
+    
+    footer .followus{
+    
+        display: inline-block;
+       padding-left: 45px;
+    
+    
+       
+    }
+ 
+    footer .followus ul li{
+     display:inline-flex;
+        padding: 10px 0px;
+    }
+    footer .followus ul li>p{
+    color: orange;
+    font-size: 18px;
+    font-style: italic;
+    }
+    footer .followus ul li>i{
+        font-size: 19px;
+    color: blanchedalmond;
+    padding-left: 4px;
+    }
+    
+    
+    .copyrights{
+        background-color: #252525;
+        color: #FBB710;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 10px 0px;
+        width: 100%;
+        bottom: 0%;
+        top: 0;
+        }
+        .copyrights>p{
+            float:right;
+            display: block;
+            padding-right: 60px;
+        
+        }
+        .copyrights>img{
+            height: 40px;
+            margin: 00px 80px;
+        }   
+        .afterheadNav{
+            background-color: #252525;
+            box-sizing: border-box;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            margin-bottom: 10px;
+            width: 100%;
+            box-shadow: 5px 0px 30px 10px #FBB710;
+            z-index: 2;
+    
+            
+            
+            
+        }
+        .fa-user{
+        font-size: 22px;
+        display: block;
+        position: absolute;
+        color: blanchedalmond;
+        left: 0;
+    top: 0;
+    padding: 20px 135px;
+        }
+        .afterheadNav> ul{
+            display: inline-flex;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 300px;
+            
+        }
+        .afterheadNav> ul> li> a{
+            color: #FBB710;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 20px;
+        }
+        .afterheadNav >ul> li> .dropdown{
+            position: absolute;
+            background-color: #fff ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 50%;
+            padding: 40px 40px;
+            margin-top: 5px;
+            box-shadow: 5px 0px 25px 0px #FBB710;
+            display: none;
+            color: #4E605F;
+        
+        }
+        .afterheadNav ul li:hover> .dropdown {
+        display:block;
+        }
+        .afterheadNav ul li:hover> .dropdown-brands {
+            display:block;
+            }
+        #BthSan{
+            font-size: 18px;
+        }
+        .afterheadNav >ul >li> ul> li> a{
+        color: #4E605F;
+        }
+        .afterheadNav>ul>li>.dropdown-brands{
+            position: absolute;
+            background-color: #fff ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 50%;
+            padding: 40px 30px;
+            margin-top: 5px;
+            box-shadow: 5px 0px 25px 0px #FBB710;
+            display: none;
+            color: #4E605F;
+            margin-left: -120px;
+            text-align: center;
+    
+        }
+        .dropdown-brands>li{
+            display: inline-block;
+        }
+        .dropdown-brands>li>img{
+            height: 50px;
+            padding: 0px 5px;
+            transition-duration: 0.6s;
+        }
+        .afterheadNav >ul >li> ul> li> a{
+        color: #4E605F;
+        }
+        
+    
+
+        .fa-caret-down{
+            padding-left: 10px;
+        }
+        .menu-toggle{
+            position: absolute;
+        right: 0;
+        top: 0;
+        padding: 20px 30px;
+        font-size: 25px;
+        display:none;
+        
+        }
+       .menu-toggle > a{
+color: #FBB710;
+       }
+
+       /* produt table start here */
+       .product-tab-1{
+        margin: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+        }
+        
+        .tab-head-1{
+            padding: 10px 20px;   
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: inline-block;
+        }
+        .products-img{
+            height: 75px;
+        }
+        .bs-tab1{
+            display: inline-block;
+            padding: 5px 12px;
+            color: #252525;
+            font-size: 15px;
+        }
+        .tab-head-1> .tab1-head-action1{
+            display: inline-flex;
+            padding-left: 50px;
+            float: right;
+        padding: 10px 0px;
+        padding-right: 20px;
+        font-size: 12px;
+        }
+        
+        .tab-head-1>.tab1-head-action1>li>a{
+            color:blanchedalmond;
+            margin-left: 20px;
+            background-color: #4E605F;
+            padding: 5px 10px;
+            border-radius: 10px;
+            
+            
+        }
+        .Bsanitary-products-cont{
+            display: inline-flex;
+            overflow: hidden;
+        margin: 30px 0px;
+        text-align: justify;
+        }
+        
+        .Bsanitary-prod-1{
+            padding: 20px 20px;
+        display: inline-block;
+        transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-1:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-2{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-2:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-3{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-3:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-4{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-4:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-5{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-5:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-6{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-6:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .product-info{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+        
+        }
+        .item-info{
+            padding: 10px 0px;
+        color:#FBB710;
+        display: inline-block;
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .price{
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .item-add{
+            margin-top: 10px;
+        padding:10px 10px;
+        background-color: #252525;
+        border: none;
+        color: #FBB710;
+        border-radius: 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        display: none;
+        }
+        .shopnow-btn{
+            margin-top: 5px;
+            padding:10px 14px;
+            background-color: #252525;
+            border: none;
+            color: #FBB710;
+            border-radius: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            cursor: pointer;
+            display: none;
+        }
+        .shopnow-btn>a{
+            color: #FBB710;
+        }
+        .Bsanitary-prod-1:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        
+        .Bsanitary-prod-2:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+                    .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                        display:inline-block;
+                        
+                        }
+                        .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                            display: inline-block;
+                        }
+                        .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                            display:inline-block;
+                            
+                            }
+                            .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                                display: inline-block;
+                            }
+                            
+        
+        
+        
+ 
+       
+}
+
+
+@media only screen and (max-width:760px) and (min-width:628px) {
+    li{
+        list-style: none;
+    }
+    .menu-toggle a{
+        text-decoration: none;
+        color: #FBB710;
+    }
+    a{
+        text-decoration: none !important;
+    }
+    
+    header{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        padding-bottom: 20px;
+        top: 0;
+        left: 0;
+        padding: 0 100px;
+    
+    }
+    header .logo{
+        float: left;
+        height: 40px ;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .searchbox{
+        display: inline;
+        padding-left: 70px;
+    }
+    header .searchbox > input{
+    width: 45%;
+    margin-top:22px ;
+    padding: 6px 16px;
+    border-radius: 4px 10px;
+    border: 0px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .fa-search{
+        background-color: white;
+    margin-left: -40px;
+    text-decoration: none;
+    color: #FBB710;
+    }
+    header nav {
+ clear: both;
+ width: 100%;
+        
+    }
+    header nav ul{
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     padding-left: 100px;
+    
+    }
+    header nav ul li {
+        list-style: none;
+        padding-left: 14px;
+        color: white;
+        margin: 15px 0px;
+        display: inline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    }
+    header nav ul li a{
+    
+        color: white;
+font-size: 15px;
+    }
+    header nav ul li a:hover{
+        color: orange;
+        transition-duration: 0.5s;
+        transition:ease 0.8s;
+     }
+    .fa-cart-plus{
+    font-size: 22px;
+    padding-right: 6px;
+    color: orange;
+    
+    }
+    
+footer{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box;
+ 
+    bottom: 0;
+    left: 0;
+    padding: 0 80px;
+   
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .logo-foot{
+    float: left;
+    height: 40px ;
+    font-size: 24px;
+    margin-top: 80px;
+    margin-right: 10px;
+    
+
+}
+ footer .aboutus{
+     display: inline-block;
+     margin: 40px 0px;
+     padding: 10px 30px;
+     
+    }
+ footer .aboutus ul .foot-heading{
+color: orange;
+font-size: 14px;
+font-style: italic;
+padding-bottom: 6px;
+
+ }
+footer .aboutus ul li{
+    padding: 4px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+}
+
+footer .customercare{
+    display: inline-block;
+    margin: 30px 0px;
+    padding: 20px 30px;
+}
+footer .customercare ul .foot-heading2{
+    color: orange;
+    font-size: 14px;
+    font-style: italic;
+    
+    
+     }
+    footer .customercare ul li{
+        padding: 2px 0px;
+        font-size: 12px;
+        color: blanchedalmond;
+    }
+
+footer .info-foot{
+    display: inline-block;
+    
+    margin: 20px 0px ;
+    padding: 10px 20px;
+    
+}
+footer .info-foot ul .info-Q{
+color: orange;
+padding-bottom: 6px;
+font-size: 15px;
+font-style: italic;
+}
+footer .info-foot ul li{
+    padding: 10px 0px;
+    font-size: 12px;
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+footer .followus{
+    
+    display: inline-block;
+    padding-left: 5px;
+
+   
+}
+footer .followus ul{
+    
+    justify-content: center;
+}
+footer .followus ul li{
+ display:inline-flex;
+    padding: 5px 0px;
+}
+footer .followus ul li>p{
+color: orange;
+font-size: 18px;
+font-style: italic;
+}
+footer .followus ul li>i{
+    font-size: 15px;
+color: blanchedalmond;
+padding-left: 4px;
+}
+.copyrights{
+    background-color: #252525;
+    color: #FBB710;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 0px;
+    width: 100%;
+    bottom: 0%;
+    top: 0;
+    text-align: center;
+    }
+    .copyrights>p{
+        
+        display: inline-block;
+        padding-right: 60px;
+    
+    }
+    .copyrights>img{
+        height: 40px;
+       
+    }
+    .afterheadNav{
+        background-color: #252525;
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        box-shadow: 5px 0px 30px 10px #FBB710;
+        z-index: 2;
+        
+        
+    }
+    .fa-user{
+    font-size: 22px;
+    display: block;
+    position: relative;
+    color: blanchedalmond;
+    left: 0;
+top: 0;
+padding: 20px 60px;
+
+    }
+    .afterheadNav #active{
+        display: none;
+        transition: linear 0.8s;
+        
+    }
+    .afterheadNav ul li a{
+        color: #FBB710;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 50px;
+        transition: linear 0.8s;
+
+    }
+    .afterheadNav>ul>li>.dropdown{
+        background-color: blanchedalmond;
+        display: block;
+        width: 50%;
+        position: relative;
+        
+    }
+    .afterheadNav>ul>li>.dropdown>#BthSan>li{
+        display: none;
+    }
+    .afterheadNav>ul>li>.dropdown>#BthSan:hover>li{
+        display: block;
+    }
+
+    .fa-caret-down{
+        padding-left: 10px;
+    }
+    .menu-toggle{
+        position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 30px;
+    font-size: 25px;
+    display: block;
+    }
+    .menu-toggle a{
+        text-decoration: none;
+        color: #FBB710;
+    }
+
+    /* products table starts */
+    .product-tab-1{
+        margin: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+    
+        }
+        
+        .tab-head-1{
+            padding: 10px 20px;   
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+        }
+        .products-img{
+            height: 75px;
+        }
+        .bs-tab1{
+            display: inline-block;
+            padding: 5px 12px;
+            color: #252525;
+            font-size: 15px;
+        }
+        .tab-head-1> .tab1-head-action1{
+            display: inline-flex;
+            padding-left: 50px;
+            
+        padding: 10px 0px;
+        padding-right: 20px;
+        font-size: 12px;
+        }
+        
+        .tab-head-1>.tab1-head-action1>li>a{
+            color:blanchedalmond;
+            margin-left: 20px;
+            background-color: #4E605F;
+            padding: 5px 10px;
+            border-radius: 10px;
+            
+            
+        }
+        .Bsanitary-products-cont{
+            display: inline-block;
+            overflow: hidden;
+        margin: 30px 0px;
+        text-align: center;
+       
+        }
+        
+        
+        .Bsanitary-prod-1{
+            padding: 20px 20px;
+        display: inline-block;
+        
+        }
+        .Bsanitary-prod-1:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-2{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-2:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-3{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-3:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-4{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-4:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-5{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-5:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-6{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-6:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+       
+        .item-info{
+            padding: 10px 0px;
+        color:#FBB710;
+        
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .price{
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .item-add{
+            margin-top: 10px;
+        padding:10px 10px;
+        background-color: #252525;
+        border: none;
+        color: #FBB710;
+        border-radius: 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        display: none;
+        }
+        .shopnow-btn{
+            margin-top: 5px;
+            padding:10px 14px;
+            background-color: #252525;
+            border: none;
+            color: #FBB710;
+            border-radius: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            cursor: pointer;
+            display: none;
+        }
+        .shopnow-btn>a{
+            color: #FBB710;
+        }
+        .Bsanitary-prod-1:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        
+        .Bsanitary-prod-2:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+                    .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                        display:inline-block;
+                        
+                        }
+                        .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                            display: inline-block;
+                        }
+                        .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                            display:inline-block;
+                            
+                            }
+                            .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                                display: inline-block;
+                            }
+                                      
+        
+        
+
+}
+
+@media only screen and (max-width:628px) and (min-width:530px) {
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none !important;
+    }
+    
+    
+    header{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        padding-bottom: 20px;
+        top: 0;
+        left: 0;
+        padding: 0 100px;
+    
+    }
+    header .logo{
+        float: left;
+        height: 40px ;
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .searchbox{
+        display: inline;
+        padding-left: 70px;
+    }
+    header .searchbox > input{
+    width: 45%;
+    margin-top:22px ;
+    padding: 6px 16px;
+    border-radius: 4px 10px;
+    border: 0px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .fa-search{
+        background-color: white;
+    margin-left: -40px;
+    text-decoration: none;
+    color: #FBB710;
+    }
+    header nav {
+ clear: both;
+ width: 100%;
+        
+    }
+    header nav ul{
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+
+    
+    }
+    header nav ul li {
+        list-style: none;
+        padding-left: 14px;
+        color: white;
+        margin: 15px 0px;
+        display: inline;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    
+    }
+    header nav ul li a:hover{
+        color: orange;
+        transition-duration: 0.5s;
+        transition:ease 0.8s;
+     }
+    header nav ul li a{
+    
+        color: white;
+font-size: 15px;
+    }
+    .fa-cart-plus{
+    font-size: 22px;
+    padding-right: 6px;
+    color: orange;
+    
+    }
+    
+    footer{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+      
+        bottom: 0;
+        left: 0;
+        padding: 0 80px;
+       
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+    }
+    
+    footer .logo-foot{
+        height: 40px ;
+        margin:10px 0px;
+        padding-bottom: 10px;
+       
+    }
+    footer .aboutus{
+        display: block;
+        
+       }
+    footer .aboutus ul .foot-heading{
+   color: orange;
+   font-size: 14px;
+   font-style: italic;
+   padding-bottom: 6px;
+   
+    }
+   footer .aboutus ul li{
+       padding: 4px 0px;
+       font-size: 12px;
+       color: blanchedalmond;
+   }
+   
+   footer .customercare{
+       display: inline-block;
+      
+       padding: 20px 30px;
+   }
+   footer .customercare ul .foot-heading2{
+       color: orange;
+       font-size: 14px;
+       font-style: italic;
+       
+       
+        }
+       footer .customercare ul li{
+           padding: 2px 0px;
+           font-size: 12px;
+           color: blanchedalmond;
+       }
+   
+   footer .info-foot{
+     display: block;
+       
+   }
+   footer .info-foot ul .info-Q{
+   color: orange;
+   padding-bottom: 6px;
+   font-size: 15px;
+   font-style: italic;
+   }
+   footer .info-foot ul li{
+       padding: 10px 0px;
+       font-size: 12px;
+       color: blanchedalmond;
+     
+   }
+   
+   footer .followus{
+       
+       display: block;
+  
+   
+      
+   }
+ 
+   footer .followus ul li{
+    display:inline-flex;
+       padding: 5px 0px;
+   }
+   footer .followus ul li>p{
+   color: orange;
+   font-size: 18px;
+   font-style: italic;
+   }
+   footer .followus ul li>i{
+       font-size: 15px;
+   color: blanchedalmond;
+   padding-left: 4px;
+   }
+
+   .copyrights{
+    background-color:#252525  ;
+    width: 100%;
+    box-sizing: border-box;
+
+    bottom: 0;
+    left: 0;
+    padding: 0 80px;
+   
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+    .copyrights p{
+    
+        color: orange;
+        padding: 10px 0px;
+    }
+    .copyrights img{
+        height: 40px;
+        padding-bottom: 10px;
+    }
+    .afterheadNav{
+        background-color: #252525;
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        
+        box-shadow: 5px 0px 30px 10px #FBB710;
+        z-index: 2;
+    
+        
+    }
+    .fa-user{
+        font-size: 22px;
+        display: block;
+        position: relative;
+        color: blanchedalmond;
+        left: 0;
+    top: 0;
+    padding: 20px 60px;
+    }
+    .afterheadNav ul{
+        display: none;
+        
+      
+        
+    }
+    .afterheadNav ul li a{
+        color: #FBB710;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 50px;
+    }
+    .fa-caret-down{
+        padding-left: 10px;
+    }
+    .menu-toggle{
+        position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 30px;
+    font-size: 25px;
+    display:block;
+    }
+    .menu-toggle a{
+        text-decoration: none;
+        color: #FBB710;
+    }
+    .product-tab-1{
+        margin: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+    
+        }
+        
+        .tab-head-1{
+            padding: 10px 20px;   
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+        }
+        .products-img{
+            height: 75px;
+        }
+        .bs-tab1{
+            display: inline-block;
+            padding: 5px 12px;
+            color: #252525;
+            font-size: 15px;
+        }
+        .tab-head-1> .tab1-head-action1{
+            display: inline-flex;
+            padding-left: 50px;
+         
+        padding: 10px 0px;
+        padding-right: 20px;
+        font-size: 12px;
+        }
+        
+        .tab-head-1>.tab1-head-action1>li>a{
+            color:blanchedalmond;
+            margin-left: 20px;
+            background-color: #4E605F;
+            padding: 5px 10px;
+            border-radius: 10px;
+            
+            
+        }
+        .Bsanitary-products-cont{
+            display: inline-block;
+            overflow: hidden;
+        margin: 30px 0px;
+        text-align: center;
+       
+        }
+        
+        .Bsanitary-prod-1{
+            padding: 20px 20px;
+        display: inline-block;
+        transition-duration: 0.6s;
+        
+        }
+        .Bsanitary-prod-1:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+        .Bsanitary-prod-2{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-2:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-3{
+            padding: 20px 20px;
+            display: inline-block;
+        }
+        .Bsanitary-prod-3:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-4{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-4:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-5{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-5:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-6{
+            padding: 20px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-6:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .product-info{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display:block;
+        
+        }
+        .item-info{
+            padding: 10px 0px;
+        color:#FBB710;
+        display: inline-block;
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .price{
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .item-add{
+            margin-top: 5px;
+        padding:10px 10px;
+        background-color: #252525;
+        border: none;
+        color: #FBB710;
+        border-radius: 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        display: none;
+        }
+        .shopnow-btn{
+            margin-top: 0px;
+            padding:10px 14px;
+            background-color: #252525;
+            border: none;
+            color: #FBB710;
+            border-radius: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            cursor: pointer;
+            display: none;
+        }
+        .shopnow-btn>a{
+            color: #FBB710;
+        }
+        .Bsanitary-prod-1:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        
+        .Bsanitary-prod-2:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+                    .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                        display:inline-block;
+                        
+                        }
+                        .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                            display: inline-block;
+                        }
+                        .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                            display:inline-block;
+                            
+                            }
+                            .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                                display: inline-block;
+                            }
+                                 
+}
+@media only screen and (max-width:530px) and (min-width:150px) {
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+
+header{
+    background-color:#4E605F  ;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-bottom: 20px;
+    top: 0;
+    left: 0;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.logo{
+    height: 40px;
+    padding-top:10px ;
+    
+
+}
+
+header nav{
+    width: 100%;
+    padding: 15px 0px;
+}
+header nav ul {
+    display: inline-flex;
+}
+header nav ul li{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header nav ul li a{
+    padding-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+.fa-cart-plus{
+    font-size: 15px;
+    padding-right: 6px;
+    color: orange;
+    
+    }
+.searchbox{
+  margin-top: -15px;
+}
+  
+    
+    header .searchbox > input{
+    width: 60%;
+    margin-top:22px ;
+    padding: 6px 10px;
+    border-radius: 4px 10px;
+    border: 0px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header nav ul li a:hover{
+        color: orange;
+        transition-duration: 0.5s;
+        transition:ease 0.8s;
+     }
+    .fa-search{
+  
+    margin-left: -40px;
+    text-decoration: none;
+    color: #FBB710;
+    }
+
+    footer{
+        background-color:#4E605F  ;
+        width: 100%;
+        box-sizing: border-box;
+    
+        bottom: 0;
+        left: 0;
+        padding: 0 80px;
+       
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+
+    }
+    
+    footer .logo-foot{
+        height: 40px ;
+        
+        margin:10px 0px;
+        padding-bottom: 10px;
+      
+    }
+    footer .aboutus{
+        display: block;
+    
+        
+       }
+    footer .aboutus ul .foot-heading{
+   color: orange;
+   font-size: 14px;
+   font-style: italic;
+   padding-bottom: 6px;
+        margin: 10px 0px;
+    }
+   footer .aboutus ul li{
+       padding: 4px 0px;
+       font-size: 12px;
+       color: blanchedalmond;
+   }
+   
+   footer .customercare{
+       display: inline-block;
+       
+       padding: 20px 30px;
+   }
+   footer .customercare ul .foot-heading2{
+       color: orange;
+       font-size: 14px;
+       font-style: italic;
+       
+       
+        }
+       footer .customercare ul li{
+           padding: 2px 0px;
+           font-size: 12px;
+           color: blanchedalmond;
+       }
+   
+   footer .info-foot{
+     display: block;
+       
+   }
+   footer .info-foot ul .info-Q{
+   color: orange;
+   padding-bottom: 6px;
+   font-size: 15px;
+   font-style: italic;
+   }
+   footer .info-foot ul li{
+       padding: 10px 0px;
+       font-size: 12px;
+       color: blanchedalmond;
+     
+   }
+   
+   footer .followus{
+       
+       display: block;
+  
+   
+      
+   }
+   footer .followus>ul{
+       padding-bottom: 16px;
+       margin-bottom: 0px;
+   }
+ 
+   footer .followus ul li{
+    display:inline-flex;
+       padding: 5px 0px;
+   }
+   footer .followus ul li>p{
+   color: orange;
+   font-size: 18px;
+   font-style: italic;
+   }
+   footer .followus ul li>i{
+       font-size: 15px;
+   color: blanchedalmond;
+   padding-left: 4px;
+   }
+   .copyrights{
+    background-color:#252525  ;
+    width: 100%;
+    box-sizing: border-box;
+
+    bottom: 0;
+    left: 0;
+    padding: 0 80px;
+   
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+    .copyrights p{
+    
+        color: orange;
+        padding: 10px 0px;
+    }
+    .copyrights img{
+        height: 40px;
+        padding-bottom: 10px;
+    }
+    .afterheadNav{
+        background-color: #252525;
+        box-sizing: border-box;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        box-shadow: 5px 0px 30px 10px #FBB710;
+        z-index: 2;
+    
+        
+        
+        
+    }
+    .fa-user{
+        font-size: 22px;
+        display: block;
+        position: relative;
+        color: blanchedalmond;
+        left: 0;
+    top: 0;
+    padding: 20px 60px;
+    }
+    .afterheadNav ul{
+        display: none;
+      
+        
+    }
+    .afterheadNav ul li a{
+        color: #FBB710;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-left: 50px;
+    }
+    .fa-caret-down{
+        padding-left: 10px;
+    }
+    .menu-toggle{
+        position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px 30px;
+    font-size: 25px;
+    display:block;
+    }
+    .menu-toggle a{
+        text-decoration: none;
+        color: #FBB710;
+    }
+    .product-tab-1{
+        margin: 0px 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      
+    
+        }
+        
+        .tab-head-1{
+            padding: 10px 10px;   
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display: block;
+        }
+        .products-img{
+            height: 75px;
+            padding-left: 2px;
+        }
+        .bs-tab1{
+            display: inline-block;
+            padding: 5px 12px;
+            color: #252525;
+            font-size: 15px;
+        }
+        .tab-head-1> .tab1-head-action1{
+            display: inline-flex;
+            text-align: center;
+        padding: 10px 0px;
+
+        font-size: 12px;
+        }
+        
+        .tab-head-1>.tab1-head-action1>li>a{
+            color:blanchedalmond;
+            
+            background-color: #4E605F;
+            padding: 5px 10px;
+            border-radius: 10px;
+            
+            
+        }
+        .Bsanitary-products-cont{
+            display: inline-block;
+            overflow: hidden;
+        margin: 30px 0px;
+        text-align: center;
+       
+        }
+        
+        .Bsanitary-prod-1{
+            padding: 10px 20px;
+        display: inline-block;
+        transition-duration: 0.6s;
+        
+        }
+        .Bsanitary-prod-1:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-2{
+            padding: 10px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-2:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-3{
+            padding: 10px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-3:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-4{
+            padding: 10px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-4:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-5{
+            padding: 10px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-5:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .Bsanitary-prod-6{
+            padding: 10px 20px;
+            display: inline-block;
+            transition-duration: 0.6s;
+        }
+        .Bsanitary-prod-6:hover{
+            box-shadow: inset -1px -1px 20px;
+            cursor: pointer;
+        }
+        .product-info{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: block;
+        
+        }
+        .item-info{
+            padding: 10px 0px;
+        color:#FBB710;
+        display: inline-block;
+        font-size: 11px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .price{
+        padding: 5px 0px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .item-add{
+            margin-top: 10px;
+        padding:10px 10px;
+        background-color: #252525;
+        border: none;
+        color: #FBB710;
+        border-radius: 5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        cursor: pointer;
+        display: none;
+
+        }
+        .shopnow-btn{
+            
+            padding:10px 14px;
+            background-color: #252525;
+            border: none;
+            color: #FBB710;
+            border-radius: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+            cursor: pointer;
+            display: none;
+        }
+        .shopnow-btn>a{
+            color: #FBB710;
+        }
+        .Bsanitary-prod-1:hover>.product-info>form>.item-add {
+        display:inline-block;
+        
+        }
+        .Bsanitary-prod-1:hover>.product-info>.shopnow-btn{
+            display: inline-block;
+        }
+        
+        .Bsanitary-prod-2:hover>.product-info>form>.item-add {
+            display:inline-block;
+            
+            }
+            .Bsanitary-prod-2:hover>.product-info>.shopnow-btn{
+                display: inline-block;
+            }
+            .Bsanitary-prod-3:hover>.product-info>form>.item-add {
+                display:inline-block;
+                
+                }
+                .Bsanitary-prod-3:hover>.product-info>.shopnow-btn{
+                    display: inline-block;
+                }
+                .Bsanitary-prod-4:hover>.product-info>form>.item-add {
+                    display:inline-block;
+                    
+                    }
+                    .Bsanitary-prod-4:hover>.product-info>.shopnow-btn{
+                        display: inline-block;
+                    }
+                    
+                    .Bsanitary-prod-5:hover>.product-info>form>.item-add {
+                        display:inline-block;
+                        
+                        }
+                        .Bsanitary-prod-5:hover>.product-info>.shopnow-btn{
+                            display: inline-block;
+                        }
+                        .Bsanitary-prod-6:hover>.product-info>form>.item-add {
+                            display:inline-block;
+                            
+                            }
+                            .Bsanitary-prod-6:hover>.product-info>.shopnow-btn{
+                                display: inline-block;
+                            }
+                                 
+}

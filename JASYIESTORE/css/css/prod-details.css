@@ -1,0 +1,1255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width:5000px) and (min-width:1300px) {
+.outer-detail-cont{
+
+   
+    display: block;
+}
+.inner-detail-cont{
+    display: flex;
+    padding: 40px 90px;
+   
+}
+.prod-spec{
+   display:inline-block ; 
+   margin: 20px 40px;
+}
+.des-name{
+    padding: 0px 40px;
+}
+.des-name>p{
+    color: #252525;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#prod-rate{
+    padding: 5px 40px;
+    
+}
+#prod-rate>p{
+    color: #252525;
+    font-size: 18px;
+    font-family: sans-serif;
+
+    padding: 10px 0px;
+}
+#star{
+    padding: 1px 2px;
+    height: 15px;
+}
+#prod-rate>span{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 18px;
+}
+.price-sec{
+    padding: 20px 40px;
+}
+.price-sec>p{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 0px;
+    display: inline-flex;
+    margin: 0px 20px;
+}
+.price-sec>p>input{
+    width: 40px;
+    background-color: #252525;
+    border: none;
+    padding: 2px 2px;
+    color: orange;
+    text-align: center;
+    border: orange solid 1px;
+}
+.action-btn{
+    text-align: center;
+    padding: 30px 0px;
+}
+.action-btn>button{
+    border: none;
+    background-color: #252525;
+    padding: 10px 15px;
+    margin: 0px 10px;
+}
+.action-btn>button>a{
+    text-decoration: none;
+color: orange;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+font-variant: small-caps;
+}
+.action-btn>button:hover a{
+transition-duration: 0.5s;
+background-color: orange;
+color: #252525;
+padding: 5px;
+border-radius: 4px;
+
+}
+.del-info>p{
+padding: 10px 0px;
+font-family: sans-serif;
+font-size: 13px;
+}
+.loca{
+    height: 20px;
+ 
+}
+.loca-spn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+   
+}
+.del-stn1{
+    margin: 10px 0px;
+}
+.deli-ico1{
+    display: inline-block;
+}
+.deli-ico1>img{height: 25px;}
+.home{
+display: inline-block;
+}
+.home>img{
+    height: 25px;
+}
+.deli-des{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.deli-des>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.whereto-info{
+    padding: 10px 20px;
+}
+
+.description-main{
+    padding: 20px 0px;
+    display: flex;
+
+}
+
+
+.des1>h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px 0px;
+}
+.des1>ul{
+    display: inline-block;
+padding: 0px 20px;
+}
+.des1>ul>li{
+    list-style:square !important;
+    font-family: monospace;
+font-size: 16px;
+
+}
+.clients-review{
+    padding: 20px 80px;
+
+}
+.clients-review>h3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+#CS{
+color: black;
+padding: 0;
+margin: 0;
+}
+.person{
+padding: 5px 10px;
+display: inline-block;
+}
+.person>h4{
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.person>h4>#CS{
+padding: 0px 10px;
+}
+.person>h4>p{
+    padding: 2px 35px;
+    font-size: 12px;
+}
+.product-rev{
+    display: inline-block;
+    float: right;
+}
+.product-rev>h3{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.product-rev>p{
+text-align: center;
+font-size: 30px ;
+font-family: sans-serif;
+padding: 10px 0px;
+}
+.star{
+    text-align: center;
+}
+.prod-head1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+}
+
+@media only screen and (max-width:1300px) and (min-width:1170px) {
+    .outer-detail-cont{
+
+   
+        display: block;
+    }
+    .inner-detail-cont{
+        display: flex;
+        padding: 40px 90px;
+       
+    }
+    .prod-spec{
+       display:inline-block ; 
+       margin: 20px 40px;
+    }
+    .des-name{
+        padding: 0px 40px;
+    }
+    .des-name>p{
+        color: #252525;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+    #prod-rate{
+        padding: 5px 40px;
+        
+    }
+    #prod-rate>p{
+        color: #252525;
+        font-size: 18px;
+        font-family: sans-serif;
+    
+        padding: 10px 0px;
+    }
+    #star{
+        padding: 1px 2px;
+        height: 15px;
+    }
+    #prod-rate>span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    }
+    .price-sec{
+        padding: 20px 40px;
+    }
+    .price-sec>p{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        padding: 5px 0px;
+        display: inline-flex;
+        margin: 0px 20px;
+    }
+    .price-sec>p>input{
+        width: 40px;
+        background-color: #252525;
+        border: none;
+        padding: 2px 2px;
+        color: orange;
+        text-align: center;
+        border: orange solid 1px;
+    }
+    .action-btn{
+        text-align: center;
+        padding: 30px 0px;
+    }
+    .action-btn>button{
+        border: none;
+        background-color: #252525;
+        padding: 10px 15px;
+       
+    }
+    .action-btn>button>a{
+        text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    }
+    .action-btn>button:hover a{
+    transition-duration: 0.5s;
+    background-color: orange;
+    color: #252525;
+    padding: 5px;
+    border-radius: 4px;
+    
+    }
+    .del-info>p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 13px;
+    }
+    .loca{
+        height: 20px;
+     
+    }
+    .loca-spn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+       
+    }
+    .del-stn1{
+        margin: 10px 0px;
+    }
+    .deli-ico1{
+        display: inline-block;
+    }
+    .deli-ico1>img{height: 25px;}
+    .home{
+    display: inline-block;
+    }
+    .home>img{
+        height: 25px;
+    }
+    .deli-des{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    .deli-des>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+    }
+    .whereto-info{
+        padding: 10px 20px;
+    }
+
+    .description-main{
+        padding: 20px 0px;
+        display: flex;
+    
+    }
+    
+    
+    .des1>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    }
+    .des1>ul{
+        display: inline-block;
+    padding: 0px 20px;
+    }
+    .des1>ul>li{
+        list-style:square !important;
+        font-family: monospace;
+    font-size: 15px;
+    
+    }
+    .clients-review{
+        padding: 20px 80px;
+    
+    }
+    .clients-review>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+    #CS{
+    color: black;
+    padding: 0;
+    margin: 0;
+    }
+    .person{
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    .person>h4{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .person>h4>#CS{
+    padding: 0px 10px;
+    }
+    .person>h4>p{
+        padding: 2px 35px;
+        font-size: 12px;
+    }
+    .product-rev{
+        display: inline-block;
+        float: right;
+    }
+    .product-rev>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    .product-rev>p{
+    text-align: center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    }
+    .star{
+        text-align: center;
+    }
+    .prod-head1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         padding: 20px 0px;
+     }
+    
+}
+
+
+@media only screen and (max-width:1170px) and (min-width:760px) {
+    .outer-detail-cont{
+
+   
+        display: block;
+    }
+    .inner-detail-cont{
+        display: flex;
+        padding: 40px 70px;
+       
+    }
+    .prod-spec{
+       display:inline-block ; 
+       margin: 20px 20px;
+    }
+    .des-name{
+        padding: 0px 10px;
+    }
+    .des-name>p{
+        color: #252525;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+    #prod-rate{
+        padding: 5px 10px;
+        
+    }
+    #prod-rate>p{
+        color: #252525;
+        font-size: 12px;
+        font-family: sans-serif;
+    
+        padding: 10px 0px;
+    }
+    #star{
+        padding: 1px 2px;
+        height: 13px;
+    }
+    #prod-rate>span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    }
+    .price-sec{
+        padding: 20px 10px;
+    }
+    .price-sec>p{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 5px 10px;
+        display: inline-flex;
+       
+    }
+    .price-sec>p>input{
+        width: 40px;
+        background-color: #252525;
+        border: none;
+        padding: 2px 2px;
+        color: orange;
+        text-align: center;
+        border: orange solid 1px;
+    }
+    .action-btn{
+        text-align: center;
+        
+    }
+    .action-btn>button{
+        border: none;
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 10px 0px;
+       
+    }
+    .action-btn>button>a{
+        text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    }
+    .action-btn>button:hover a{
+    transition-duration: 0.5s;
+    background-color: orange;
+    color: #252525;
+    padding: 5px;
+    border-radius: 4px;
+    
+    }
+    .del-info>p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    }
+    .loca{
+        height: 16px;
+     
+    }
+    .loca-spn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+       
+    }
+    .del-stn1{
+        margin: 10px 0px;
+    }
+    .deli-ico1{
+        display: inline-block;
+    }
+    .deli-ico1>img{height: 20px;}
+    .home{
+    display: inline-block;
+    }
+    .home>img{
+        height: 20px;
+    }
+    .deli-des{
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .deli-des>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    .whereto-info{
+        padding: 10px 10px;
+    }
+
+    .description-main{
+        padding: 20px 0px;
+        display: flex;
+    
+    }
+    
+    
+    .des1>h3{
+        font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    }
+    .des1>ul{
+        display: inline-block;
+    padding: 0px 10px;
+    }
+    .des1>ul>li{
+        list-style:square !important;
+        font-family: monospace;
+    font-size: 12px;
+    
+    }
+    .prod-img-area>img{
+        height: 120px;
+    }
+    .clients-review{
+        padding: 20px 60px;
+    
+    }
+    .clients-review>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+    #CS{
+        color: black;
+    }
+    .person{
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    .person>h4{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .person>h4>#CS{
+    padding: 0px 10px;
+    }
+    .person>h4>p{
+        padding: 2px 35px;
+        font-size: 12px;
+    }
+    .product-rev{
+        display: inline-block;
+        
+    }
+    .product-rev>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    .product-rev>p{
+    text-align: center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    }
+    .star{
+        text-align: center;
+    }
+    .prod-head1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         padding: 20px 0px;
+     }
+}
+
+
+@media only screen and (max-width:760px) and (min-width:628px) {
+    .outer-detail-cont{
+
+   
+        display: block;
+    }
+    .inner-detail-cont{
+        display: flex;
+        padding: 40px 70px;
+       
+    }
+    .prod-spec{
+       display:inline-block ; 
+       margin: 20px 20px;
+    }
+    .des-name{
+        padding: 0px 10px;
+    }
+    .des-name>p{
+        color: #252525;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+    #prod-rate{
+        padding: 5px 10px;
+        
+    }
+    #prod-rate>p{
+        color: #252525;
+        font-size: 12px;
+        font-family: sans-serif;
+    
+        padding: 10px 0px;
+    }
+    #star{
+        padding: 1px 2px;
+        height: 13px;
+    }
+    #prod-rate>span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    }
+    .price-sec{
+        padding: 20px 10px;
+    }
+    .price-sec>p{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 5px 10px;
+        display: inline-flex;
+       
+    }
+    .price-sec>p>input{
+        width: 40px;
+        background-color: #252525;
+        border: none;
+        padding: 2px 2px;
+        color: orange;
+        text-align: center;
+        border: orange solid 1px;
+    }
+    .action-btn{
+        text-align: center;
+        
+    }
+    .action-btn>button{
+        border: none;
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 10px 0px;
+       
+    }
+    .action-btn>button>a{
+        text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    }
+    .action-btn>button:hover a{
+    transition-duration: 0.5s;
+    background-color: orange;
+    color: #252525;
+    padding: 5px;
+    border-radius: 4px;
+    
+    }
+    .del-info>p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    }
+    .loca{
+        height: 16px;
+     
+    }
+    .loca-spn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+       
+    }
+    .del-stn1{
+        margin: 10px 0px;
+    }
+    .deli-ico1{
+        display: inline-block;
+    }
+    .deli-ico1>img{height: 20px;}
+    .home{
+    display: inline-block;
+    }
+    .home>img{
+        height: 20px;
+    }
+    .deli-des{
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .deli-des>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    .del-info{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .whereto-info{
+        padding: 10px 10px;
+    }
+
+    .description-main{
+        padding: 20px 0px;
+        display: flex;
+    
+    }
+    
+    
+    .des1>h3{
+        font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    }
+    .des1>ul{
+        display: inline-block;
+    padding: 0px 10px;
+    }
+    .des1>ul>li{
+        list-style:square !important;
+        font-family: monospace;
+    font-size: 12px;
+    
+    }
+    .prod-img-area>img{
+        height: 120px;
+    }
+    .clients-review{
+        padding: 20px 60px;
+        text-align: center;
+    
+    }
+    .clients-review>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+    #CS{
+        color: black;
+    }
+    .person{
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    .person>h4{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .person>h4>#CS{
+    padding: 0px 10px;
+    }
+    .person>h4>p{
+        padding: 2px 35px;
+        font-size: 12px;
+    }
+    .product-rev{
+        display: inline-block;
+        
+    }
+    .product-rev>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    .product-rev>p{
+    text-align: center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    }
+    .star{
+        text-align: center;
+    }
+    .prod-head1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 18px;
+         padding: 20px 0px;
+         text-align: center;
+     }
+    
+}
+
+@media only screen and (max-width:628px) and (min-width:530px) {
+
+    .outer-detail-cont{
+        
+   
+        display: inline-block;
+    }
+    .inner-detail-cont{
+        display: block;
+        
+       
+       padding: 40px 100px;
+       
+    }
+    .prod-spec{
+       
+       padding:50px 25px;
+       text-align: center;
+    }
+    .des-name{
+        padding: 0px 10px;
+    }
+    .des-name>p{
+        color: #252525;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+    #prod-rate{
+        padding: 5px 10px;
+        
+    }
+    #prod-rate>p{
+        color: #252525;
+        font-size: 12px;
+        font-family: sans-serif;
+    
+        padding: 10px 0px;
+    }
+    #star{
+        padding: 1px 2px;
+        height: 13px;
+    }
+    #prod-rate>span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    }
+    .price-sec{
+        padding: 20px 10px;
+    }
+    .price-sec>p{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 5px 10px;
+        display: inline-flex;
+       
+    }
+    .price-sec>p>input{
+        width: 40px;
+        background-color: #252525;
+        border: none;
+        padding: 2px 2px;
+        color: orange;
+        text-align: center;
+        border: orange solid 1px;
+    }
+    .action-btn{
+        text-align: center;
+        
+    }
+    .action-btn>button{
+        border: none;
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 10px 0px;
+       
+    }
+    .action-btn>button>a{
+        text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    }
+    .action-btn>button:hover a{
+    transition-duration: 0.5s;
+    background-color: orange;
+    color: #252525;
+    padding: 5px;
+    border-radius: 4px;
+    
+    }
+    .del-info>p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    }
+    .loca{
+        height: 16px;
+     
+    }
+    .loca-spn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+       
+    }
+    .del-stn1{
+        margin: 10px 0px;
+    }
+    .deli-ico1{
+        display: inline-block;
+    }
+    .deli-ico1>img{height: 20px;}
+    .home{
+    display: inline-block;
+    }
+    .home>img{
+        height: 20px;
+    }
+    .deli-des{
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .deli-des>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    .whereto-info{
+        padding: 30px 40px;
+    }
+    .prod-img-area{
+        display: flex;
+        text-align: center;
+    }
+
+    .description-main{
+        padding: 25px 25px;
+        
+    
+    }
+    
+    
+    .des1>h3{
+        font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    }
+    .des1>ul{
+        display: inline-block;
+    padding: 0px 10px;
+    }
+    .des1>ul>li{
+        list-style:square !important;
+        font-family: monospace;
+    font-size: 13px;
+    
+    }
+    .prod-img-area>img{
+        height: 120px;
+        padding: 50px 0px;
+    }
+    .clients-review{
+        text-align: center;
+    
+    }
+    .clients-review>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0px;
+    }
+    #CS{
+        color: black;
+    }
+    .person{
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    .person>h4{
+        font-family: sans-serif;
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+    .person>h4>#CS{
+    padding: 0px 10px;
+    }
+    .person>h4>p{
+        padding: 2px 15px;
+        font-size: 12px;
+    }
+    .product-rev{
+        text-align: center;
+        display: block;
+        margin: 15px 0px;
+        
+    }
+    .product-rev>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    .product-rev>p{
+    text-align: center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    }
+    .star{
+        text-align: center;
+    }
+    .prod-head1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 16px;
+         padding: 15px 0px;
+         text-align: center;
+     }
+}
+
+@media only screen and (max-width:530px) and (min-width:150px){
+
+    .outer-detail-cont{
+        text-align: center;
+        display: block;
+    }
+    .inner-detail-cont{
+        display: block;
+        
+       
+       padding: 40px 0px;
+       
+    }
+    .prod-spec{
+       
+       padding:50px 25px;
+       text-align: center;
+    }
+    .des-name{
+        padding: 0px 10px;
+    }
+    .des-name>p{
+        color: #252525;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+    #prod-rate{
+        padding: 5px 10px;
+        
+    }
+    #prod-rate>p{
+        color: #252525;
+        font-size: 12px;
+        font-family: sans-serif;
+    
+        padding: 10px 0px;
+    }
+    #star{
+        padding: 1px 2px;
+        height: 13px;
+    }
+    #prod-rate>span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    }
+    .price-sec{
+        padding: 20px 10px;
+    }
+    .price-sec>p{
+        font-family: sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        padding: 5px 10px;
+        display: inline-flex;
+       
+    }
+    .price-sec>p>input{
+        width: 40px;
+        background-color: #252525;
+        border: none;
+        padding: 2px 2px;
+        color: orange;
+        text-align: center;
+        border: orange solid 1px;
+    }
+    .action-btn{
+        text-align: center;
+        
+    }
+    .action-btn>button{
+        border: none;
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 10px 0px;
+       
+    }
+    .action-btn>button>a{
+        text-decoration: none;
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    }
+    .action-btn>button:hover a{
+    transition-duration: 0.5s;
+    background-color: orange;
+    color: #252525;
+    padding: 5px;
+    border-radius: 4px;
+    
+    }
+    .del-info>p{
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+    }
+    .loca{
+        height: 16px;
+     
+    }
+    .loca-spn{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+       
+    }
+    .del-stn1{
+        margin: 10px 0px;
+    }
+    .deli-ico1{
+        display: inline-block;
+    }
+    .deli-ico1>img{height: 20px;}
+    .home{
+    display: inline-block;
+    }
+    .home>img{
+        height: 20px;
+    }
+    .deli-des{
+        display: inline-block;
+        padding: 5px 5px;
+    }
+    .deli-des>p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    .whereto-info{
+        padding: 30px 40px;
+    }
+    .prod-img-area{
+        display: flex;
+        text-align: center;
+    }
+
+    .description-main{
+        padding: 25px 25px;
+        
+    
+    }
+    
+    
+    .des1>h3{
+        font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0px;
+    }
+    .des1>ul{
+        display: inline-block;
+    padding: 0px 10px;
+    }
+    .des1>ul>li{
+        list-style:square !important;
+        font-family: monospace;
+    font-size: 13px;
+    
+    }
+    .prod-img-area>img{
+        height: 120px;
+        padding: 50px 0px;
+    }
+    .clients-review{
+        text-align: center;
+    
+    }
+    .clients-review>h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 0px;
+    }
+    #CS{
+        color: black;
+    }
+    .person{
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    .person>h4{
+        font-family: sans-serif;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .person>h4>#CS{
+    padding: 0px 10px;
+    }
+    .person>h4>p{
+        padding: 2px 10px;
+        font-size: 12px;
+    }
+    .product-rev{
+        text-align: center;
+        display: block;
+        margin: 15px 0px;
+        
+    }
+    .product-rev>h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    .product-rev>p{
+    text-align: center;
+    font-size: 30px ;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    }
+    .star{
+        text-align: center;
+    }
+    .prod-head1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-size: 20px;
+         padding: 15px 0px;
+        text-align: center;
+        }
+
+}

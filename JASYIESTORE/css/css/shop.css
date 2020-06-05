@@ -1,0 +1,1014 @@
+*{
+    margin: 0;
+padding: 0;
+}
+
+@media only screen and (max-width:5000px) and (min-width:1300px) {
+.side-list-main{
+display: inline-block;
+position: absolute;
+width: 20%;
+padding: 20px 10px;
+margin: 10px 0px;
+
+}
+.side-list-main>a{
+    color: orange;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+}
+.side-list-main>.side-list-head{
+    margin: 10px 0px;
+    width: 100%;
+}
+.side-list-main>.side-list-head>h3{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 17px;
+color: #4E605F ;
+}
+
+.menu{
+    margin: 15px 5px;
+    width: 100%;
+}
+#cato-icon{
+color: orange;
+}
+.menu>ul>li{
+background-color: #252525;
+padding: 10px 10px;
+margin: 5px 0px;
+font-size: 15px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-variant: small-caps;
+color: blanchedalmond;
+display: inline-block;
+
+text-align: center;
+}
+
+input[type="checkbox"]{
+    position: relative;
+top: 5px;
+width: 20px;
+height: 20px;
+-webkit-appearance: none;
+outline: none;
+transition: ease 0.5s;
+margin-right: 10px;
+}
+input[type="checkbox"]:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+border: 3px solid orange;
+box-sizing: border-box;
+transition: ease 0.5s;
+}
+input:checked[type="checkbox"]:before{
+border-left: none;
+border-top: none;
+width: 10px;
+border-color: lawngreen;
+transform: rotate(45deg) translate(5px,-10px);
+
+}
+
+label{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: blanchedalmond;
+
+}
+
+.products-cont-main{
+display: block;
+width: 75%;
+float: right;
+margin: 10px 10px;
+padding: 20px 0px;
+}
+.head-prod-cont-main{
+    display: block;
+}
+.head-prod-cont-main>h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4E605F;
+    padding: 10px 0px;
+}
+.prod-main-shop{
+display: inline-block;
+text-align: center;
+
+padding: 15px 15px;
+}
+.prod-main-shop:hover{
+    box-shadow: inset -1px -1px 20px;
+    transition: linear 0.7s;
+}
+.prod-list1-shop{
+    display: inline-block;
+    margin: 5px 5px;
+}
+.prod-list1-shop>img{
+height: 120px;
+}
+.prod-shop-info{
+text-align: center;
+
+}
+
+.prod-shop-desc{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 2px 0px;
+}
+.prod-shop-price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 17px;
+padding: 10px 0px;
+}
+.prod-shop-info>button{
+    text-align: center;
+    margin: 5px 0px;
+    padding: 5px 5px;
+    background-color: #252525;
+    border: none;
+}
+.prod-shop-info>button>a:hover{
+    color: blanchedalmond;
+    transition: linear 0.5s;
+    background-color: #4E605F;
+}
+.prod-shop-info>button>a{
+text-decoration: none;
+color: orange;
+font-size: 17px;
+padding: 5px 5px;
+font-variant: small-caps;
+}
+
+.head-prod-cont-main>a{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding: 5px 5px;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width:1300px) and (min-width:1170px) {
+
+    .side-list-main{
+        display: inline-block;
+        position: absolute;
+        width: 20%;
+        padding: 20px 10px;
+        margin: 10px 0px;
+        
+        }
+        .side-list-main>.side-list-head{
+            margin: 10px 0px;
+            width: 100%;
+        }
+        .side-list-main>.side-list-head>h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        color: #4E605F ;
+        }
+        #cato-icon{
+            color: orange;
+    
+        }
+        .menu{
+            margin: 15px 5px;
+            width: 100%;
+        }
+        .menu>ul>li{
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 5px 0px;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        color: blanchedalmond;
+        display: inline-block;
+      
+        text-align: center;
+        }
+        
+        .head-prod-cont-main>a{
+            color: orange;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 12px;
+            padding: 5px 5px;
+
+        }
+        
+        input[type="checkbox"]{
+            position: relative;
+        top: 5px;
+        width: 20px;
+        height: 20px;
+        -webkit-appearance: none;
+        outline: none;
+        transition: ease 0.5s;
+        margin-right: 10px;
+        }
+        input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        transition: ease 0.5s;
+        }
+        input:checked[type="checkbox"]:before{
+        border-left: none;
+        border-top: none;
+        width: 10px;
+        border-color: lawngreen;
+        transform: rotate(45deg) translate(5px,-10px);
+        
+        }
+        
+        label{
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: small-caps;
+            color: blanchedalmond;
+        
+        }
+        .products-cont-main{
+            display:inline-block;
+            width: 75%;
+
+            margin: 20px 5px;
+            padding: 10px 10px;
+            position: relative;
+            }
+
+            
+                .head-prod-cont-main>h3{
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #4E605F;
+                    padding: 10px 0px;
+                }
+                .prod-main-shop{
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                    padding: 15px 5px;
+                
+               
+                }
+                .prod-main-shop:hover{
+                    box-shadow: inset -1px -1px 20px;
+                    transition: linear 0.7s;
+                }
+                .prod-list1-shop{
+                    display: inline-block;
+                    margin: 5px 5px;
+                }
+                .prod-list1-shop>img{
+                height: 120px;
+                }
+                .prod-shop-info{
+                text-align: center;
+                
+                }
+                
+                .prod-shop-desc{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 18px;
+                    padding: 2px 0px;
+                }
+                .prod-shop-price{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 17px;
+                padding: 10px 0px;
+                }
+                .prod-shop-info>button{
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 5px 5px;
+                    background-color: #252525;
+                    border: none;
+                }
+                .prod-shop-info>button>a:hover{
+                    color: blanchedalmond;
+                    transition: linear 0.5s;
+                    background-color: #4E605F;
+                }
+                .prod-shop-info>button>a{
+                text-decoration: none;
+                color: orange;
+                font-size: 17px;
+                padding: 5px 5px;
+                font-variant: small-caps;
+                }
+                
+}
+
+
+@media only screen and (max-width:1170px) and (min-width:760px) {
+    .side-list-main{
+        display: inline-block;
+        position: absolute;
+        width: 25%;
+        padding: 0px 10px;
+        margin: 20px 0px;
+        
+        
+        
+        }
+        .side-list-main>.side-list-head{
+            margin: 10px 0px;
+            width: 100%;
+        }
+        .side-list-main>.side-list-head>h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #4E605F ;
+        text-align: center;
+        }
+        #cato-icon{
+             color: orange;
+            
+        }
+        .menu{
+            margin: 15px 5px;
+            width: 100%;
+        }.menu>ul
+        {
+            width: 100%;
+            display: inline-block;
+        }
+        .menu>ul>li{
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 5px 0px;
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        color: blanchedalmond;
+        display: inline-block;
+ 
+        text-align: center;
+        }
+        
+        input[type="checkbox"]{
+            position: relative;
+        top: 5px;
+        width: 15px;
+        height: 15px;
+        -webkit-appearance: none;
+        outline: none;
+        transition: ease 0.5s;
+        margin-bottom: 5px;
+        display: inline-block;
+        
+        
+        }
+        input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        transition: ease 0.5s;
+        
+        }
+        input:checked[type="checkbox"]:before{
+        border-left: none;
+        border-top: none;
+        width: 7.5px;
+        border-color: lawngreen;
+        transform: rotate(45deg) translate(5px,-10px);
+     
+        }
+        
+        label{
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: small-caps;
+            color: blanchedalmond;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .products-cont-main{
+            display:inline-block;
+            width: 70%;
+
+            margin: 20px 0px;
+            padding: 15px 5px;
+            position: relative;
+            }
+
+            
+                .head-prod-cont-main>h3{
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #4E605F;
+                    padding: 10px 0px;
+                }
+                .prod-main-shop{
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                    padding: 15px 5px;
+                
+               
+                }
+                .prod-main-shop:hover{
+                    box-shadow: inset -1px -1px 20px;
+                    transition: linear 0.7s;
+                }
+                .prod-list1-shop{
+                    display: inline-block;
+                    margin: 5px 5px;
+                }
+                .prod-list1-shop>img{
+                height: 120px;
+                }
+                .prod-shop-info{
+                text-align: center;
+                
+                }
+                
+                .prod-shop-desc{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 14px;
+                    padding: 2px 0px;
+                }
+                .prod-shop-price{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 15px;
+                padding: 10px 0px;
+                }
+                .prod-shop-info>button{
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 5px 5px;
+                    background-color: #252525;
+                    border: none;
+                }
+                .prod-shop-info>button>a:hover{
+                    color: blanchedalmond;
+                    transition: linear 0.5s;
+                    background-color: #4E605F;
+                }
+                .prod-shop-info>button>a{
+                text-decoration: none;
+                color: orange;
+                font-size: 15px;
+                padding: 5px 5px;
+                font-variant: small-caps;
+                }.head-prod-cont-main>a{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 12px;
+                    padding: 5px 5px;
+
+                }
+        
+
+}
+
+@media only screen and (max-width:760px) and (min-width:628px) {
+    .side-list-main{
+        display: inline-block;
+        position: absolute;
+        width: 25%;
+        padding: 0px 5px;
+        margin: 20px 0px;
+        
+        
+        
+        }
+        .side-list-main>.side-list-head{
+            margin: 10px 0px;
+            width: 100%;
+        }
+        .side-list-main>.side-list-head>h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #4E605F ;
+        text-align: center;
+        }
+        #cato-icon{
+             color: orange;
+            
+        }
+        .menu{
+            margin: 15px 5px;
+            width: 100%;
+        }.menu>ul
+        {
+            width: 100%;
+            display: inline-block;
+        }
+        .menu>ul>li{
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 5px 0px;
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        color: blanchedalmond;
+        display: inline-block;
+ 
+        text-align: center;
+        }
+        
+        input[type="checkbox"]{
+            position: relative;
+        top: 5px;
+        width: 15px;
+        height: 15px;
+        -webkit-appearance: none;
+        outline: none;
+        transition: ease 0.5s;
+        margin-bottom: 5px;
+        display: inline-block;
+        
+        
+        }
+        input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        transition: ease 0.5s;
+        
+        }
+        input:checked[type="checkbox"]:before{
+        border-left: none;
+        border-top: none;
+        width: 7.5px;
+        border-color: lawngreen;
+        transform: rotate(45deg) translate(5px,-10px);
+     
+        }
+        
+        label{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: small-caps;
+            color: blanchedalmond;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+        }
+        .products-cont-main{
+            display:inline-block;
+            width: 65%;
+
+            margin: 20px 5px;
+            padding: 15px 5px;
+            position: relative;
+            }
+
+            
+                .head-prod-cont-main>h3{
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #4E605F;
+                    padding: 10px 0px;
+                }
+                .prod-main-shop{
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                    padding: 15px 2px;
+                
+               
+                }
+                .prod-main-shop:hover{
+                    box-shadow: inset -1px -1px 20px;
+                    transition: linear 0.7s;
+                }
+                .prod-list1-shop{
+                    display: inline-block;
+                    margin: 5px 5px;
+                }
+                .prod-list1-shop>img{
+                height: 100px;
+                }
+                .prod-shop-info{
+                text-align: center;
+                
+                }
+                
+                .prod-shop-desc{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 11px;
+                    padding: 2px 2px;
+                }
+                .prod-shop-price{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 15px;
+                padding: 10px 0px;
+                }
+                .prod-shop-info>button{
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 5px 5px;
+                    background-color: #252525;
+                    border: none;
+                }
+                .prod-shop-info>button>a:hover{
+                    color: blanchedalmond;
+                    transition: linear 0.5s;
+                    background-color: #4E605F;
+                }
+                .prod-shop-info>button>a{
+                text-decoration: none;
+                color: orange;
+                font-size: 15px;
+                padding: 5px 5px;
+                font-variant: small-caps;
+                }
+        
+                .head-prod-cont-main>a{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 12px;
+                    padding: 5px 5px;
+
+                }
+}
+
+
+@media only screen and (max-width:628px) and (min-width:530px) {
+    .side-list-main{
+        display: block;
+        position: relative;
+        padding: 0px 5px;
+        margin: 20px 0px;
+        
+        
+        
+        }
+        .side-list-main>.side-list-head{
+            margin: 10px 0px;
+            width: 100%;
+        }
+        .side-list-main>.side-list-head>h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #4E605F ;
+        text-align: center;
+        }
+        #cato-icon{
+             color: orange;
+            
+        }
+        .menu{
+            margin: 15px 5px;
+            width: 100%;
+        }.menu>ul
+        {
+            width: 100%;
+            display: inline-block;
+        }
+        .menu>ul>li{
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 5px 0px;
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        color: blanchedalmond;
+        display: inline-block;
+ 
+        text-align: center;
+        }
+        
+        input[type="checkbox"]{
+            position: relative;
+        top: 5px;
+        width: 15px;
+        height: 15px;
+        -webkit-appearance: none;
+        outline: none;
+        transition: ease 0.5s;
+        margin-bottom: 5px;
+        display: inline-block;
+        
+        
+        }
+        input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        transition: ease 0.5s;
+        
+        }
+        input:checked[type="checkbox"]:before{
+        border-left: none;
+        border-top: none;
+        width: 7.5px;
+        border-color: lawngreen;
+        transform: rotate(45deg) translate(5px,-10px);
+     
+        }
+        
+        label{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: small-caps;
+            color: blanchedalmond;
+            display: inline-block;
+            width: 100%;
+        }
+        .products-cont-main{
+            display:block;
+            text-align: center;
+            position: relative;
+            
+            }
+
+            
+                .head-prod-cont-main>h3{
+                    text-align: center;
+                    font-size: 25px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #4E605F;
+                    padding: 10px 0px;
+                }
+                .prod-main-shop{
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                    padding: 15px 10px;
+                
+               
+                }
+                .prod-main-shop:hover{
+                    box-shadow: inset -1px -1px 20px;
+                    transition: linear 0.7s;
+                }
+                .prod-list1-shop{
+                    display: inline-block;
+                    margin: 5px 5px;
+                }
+                .prod-list1-shop>img{
+                height: 100px;
+                }
+                .prod-shop-info{
+                text-align: center;
+                
+                }
+                
+                .prod-shop-desc{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 11px;
+                    padding: 2px 2px;
+                }
+                .prod-shop-price{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 15px;
+                padding: 10px 0px;
+                }
+                .prod-shop-info>button{
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 5px 5px;
+                    background-color: #252525;
+                    border: none;
+                }
+                .prod-shop-info>button>a:hover{
+                    color: blanchedalmond;
+                    transition: linear 0.5s;
+                    background-color: #4E605F;
+                }
+                .prod-shop-info>button>a{
+                text-decoration: none;
+                color: orange;
+                font-size: 15px;
+                padding: 5px 5px;
+                font-variant: small-caps;
+                }
+                .head-prod-cont-main>a{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 12px;
+                    padding: 5px 5px;
+
+                }
+
+}
+
+@media only screen and (max-width:530px) and (min-width:150px) {
+
+    .side-list-main{
+        display: block;
+        position: relative;
+        padding: 0px 5px;
+        margin: 20px 0px;
+        
+        
+        
+        }
+        .side-list-main>.side-list-head{
+            margin: 10px 0px;
+            width: 100%;
+        }
+        .side-list-main>.side-list-head>h3{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #4E605F ;
+        text-align: center;
+        }
+        #cato-icon{
+             color: orange;
+            
+        }
+        .menu{
+            margin: 15px 5px;
+            width: 100%;
+        }.menu>ul
+        {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+        }
+        .menu>ul>li{
+        background-color: #252525;
+        padding: 10px 10px;
+        margin: 5px 0px;
+        display: inline-block;
+        text-align: center;
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: small-caps;
+        color: blanchedalmond;
+        display: inline-block;
+ 
+        text-align: center;
+        }
+        
+        input[type="checkbox"]{
+            position: relative;
+        top: 5px;
+        width: 15px;
+        height: 15px;
+        -webkit-appearance: none;
+        outline: none;
+        transition: ease 0.5s;
+        margin-bottom: 5px;
+        display: inline-block;
+        
+        
+        }
+        input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border: 3px solid orange;
+        box-sizing: border-box;
+        transition: ease 0.5s;
+        
+        }
+        input:checked[type="checkbox"]:before{
+        border-left: none;
+        border-top: none;
+        width: 7.5px;
+        border-color: lawngreen;
+        transform: rotate(45deg) translate(5px,-10px);
+     
+        }
+        
+        label{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-variant: small-caps;
+            color: blanchedalmond;
+            display: inline-block;
+            width: 100%;
+        }
+        .products-cont-main{
+            display:block;
+            text-align: center;
+            position: relative;
+            
+            }
+
+            
+                .head-prod-cont-main>h3{
+                    text-align: center;
+                    font-size: 18px;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    color: #4E605F;
+                    padding: 10px 0px;
+                }
+                .head-prod-cont-main>a{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 12px;
+                    padding: 5px 5px;
+
+                }
+                .prod-main-shop{
+                display: inline-block;
+                text-align: center;
+                position: relative;
+                    padding: 15px 10px;
+                
+               
+                }
+                .prod-main-shop:hover{
+                    box-shadow: inset -1px -1px 20px;
+                    transition: linear 0.7s;
+                }
+                .prod-list1-shop{
+                    display: inline-block;
+                    margin: 5px 5px;
+                }
+                .prod-list1-shop>img{
+                height: 100px;
+                }
+                .prod-shop-info{
+                text-align: center;
+                
+                }
+                
+                .prod-shop-desc{
+                    color: orange;
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-size: 11px;
+                    padding: 2px 2px;
+                }
+                .prod-shop-price{
+                    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                font-size: 15px;
+                padding: 10px 0px;
+                }
+                .prod-shop-info>button{
+                    text-align: center;
+                    margin: 5px 0px;
+                    padding: 5px 5px;
+                    background-color: #252525;
+                    border: none;
+                }
+                .prod-shop-info>button>a:hover{
+                    color: blanchedalmond;
+                    transition: linear 0.5s;
+                    background-color: #4E605F;
+                }
+                .prod-shop-info>button>a{
+                text-decoration: none;
+                color: orange;
+                font-size: 15px;
+                padding: 5px 5px;
+                font-variant: small-caps;
+                }
+
+
+}
