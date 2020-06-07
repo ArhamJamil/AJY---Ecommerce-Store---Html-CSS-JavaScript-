@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/css/checkout.css">
+    <link rel="stylesheet" href="../css/css/style.css">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header id="not">
+        <img class="logo" src="../css/img/logo2.png" alt="" srcset="">
+
+        <form action="" method="post">
+            <div class="searchbox">
+
+                <input type="text" placeholder="Search Here" maxlength="15"><span id=""> <a href="#"> <i
+                            class="fa fa-search"></i></a></span>
+
+            </div>
+        </form>
+
+
+        <nav>
+            <ul>
+                <li><a href="#">Track My Order</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">SignUp</a></li>
+                <li><a href="./Mycart.html"><i class="fa fa-cart-plus"></i>Cart</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+
+    </div>
+
+
+
+    <div class="afterheadNav">
+        <form action="" method="post">
+            <i class="fas fa-user"></i>
+        </form>
+        <ul id="active">
+            <li><a href="#"> All Products<i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown">
+                    <li id="BthSan"> <a href="" id="BthSan">Bathroom Sanitary</a>
+                    <li> <a href="">Basin</a> </li>
+                    <li> <a href="">Basin Mixers</a> </li>
+                    <li> <a href="">Bath Mixers</a> </li>
+                    <li> <a href="">Bathroom accessories</a> </li>
+                    <li> <a href="">Bathroom Set</a> </li>
+                    <li> <a href="">Bib Cock</a> </li>
+                    <li> <a href="">Bidet</a> </li>
+                    <li> <a href="">Cubical / Shower Room</a> </li>
+                    <li> <a href="">Dial Mixer</a> </li>
+                    <li> <a href="">Flush Tank</a> </li>
+                    <li> <a href="">Hand Shower</a> </li>
+            </li>
+
+            <!-- <li id="BthSan"> <a href=""id="BthSan" >Bathroom Sanitary</a>
+                <li> <a href="">Basin</a> </li>
+                <li> <a href="">Basin Mixers</a> </li>
+                <li> <a href="">Bath Mixers</a> </li>
+                <li> <a href="">Bathroom accessories</a> </li>
+                <li> <a href="">Bathroom Set</a> </li>
+                <li> <a href="">Bib Cock</a> </li>
+                <li> <a href="">Bidet</a> </li>
+                <li> <a href="">Cubical / Shower Room</a> </li>
+                <li> <a href="">Dial Mixer</a> </li>
+                <li> <a href="">Flush Tank</a> </li>
+                <li> <a href="">Hand Shower</a> </li>
+               </li> -->
+
+
+
+        </ul>
+
+
+
+
+
+        </li>
+        <li><a href="#"> Our Brands <i class="fas fa-caret-down"></i></a>
+            <ul class="dropdown-brands">
+                <li class="brands-img"><img src="../css/img/MASTER.jpg" alt=""></li>
+                <li><img src="../css/img/Faisal-Sanitory.jpg" alt=""></li>
+                <li><img src="../css/img/rsz_casamoda.png" alt=""></li>
+                <li><img src="../css/img/STILE.jpg" alt=""></li>
+                <li><img src="../css/img/PORTA.jpg" alt=""></li>
+
+            </ul>
+
+        </li>
+        <li><a href="../pages/shop.html"> Shop Now</a></li>
+        <li><a href="#"> Deals</a></li>
+        </ul>
+        <div class="menu-toggle"><a href="javascript:void(0)" onclick=" responsiveMobNav()"><i
+                    class="fas fa-bars"></i></a>
+        </div>
+    </div>
+
+
+    <!-- header end here -->
+
+
+    <!-- main content -->
+
+
+
+
+
+
+
+
+
+
+
+    <div class="chk-outer-cont">
+
+        <div class="inner-chk-cont">
+
+            <div class="side1">
+
+                <div class="adress">
+                    <h3>Address Information</h3>
+                   
+                    <!-- <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Address 2</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                              <option selected>Choose...</option>
+                              <option>...</option>
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                      </form></div> -->
+                    <table>
+
+                        <tr>
+                            <th>Firstname :</th>
+                            <th>Lastname :</th>
+
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        
+                        <tr>
+                            <th>Country :</th>
+                            <th>City :</th>
+
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+
+                        <tr>
+                            <th>Postal Code :</th>
+                            <th>Street :</th>
+                            
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Contact No :</th>
+                            <th>Town :</th>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+
+                    </table>
+
+                </div> 
+                <hr>
+                <br>
+                
+               
+            </div>
+
+            <div class="side2">
+                <div class="receipt-sec">
+                    <h3>Receipt Summary</h3>
+
+                    <ul class="Rcpt-left">
+                        <li>Product-Name :</li>
+                        <li>Price :</li>
+                        <li>Discount :</li>
+                        <li>Voucher :</li>
+                        <li>
+                            <h3>Total :</h3>
+                        </li>
+                    </ul>
+                    <ul class="Rcpt-right">
+                        <li>Porta HD3T Flush Tank</li>
+                        <li>Rs.5000</li>
+                        <li>2.00%</li>
+                        <li>Applied</li>
+                        <li>
+                            <h3>Rs. 4300</h3>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="Payment-info">
+
+                    <h3>Payment Information</h3>
+                    <div class="credit">
+                        <label for="cardname">Name on Credit Card
+                            <br>
+                            <input type="text" name="" id="" placeholder="e.g:johyWick">
+                        </label>
+                        <br>
+                        <label for="cardname">Credit Card Number
+                            <br>
+                            <input type="number" name="" id="" placeholder="e.g:4244-25120-2626-6363">
+                        </label>
+                        <br>
+                        <label for="cardname">Credit Card Expires:
+                            <br>
+                            <select name="day" id="month">
+                               
+                                <option value="0" hidden>Month</option>
+                                <option value="1">Jan</option>
+                                <option value="2">Feb</option>
+                                <option value="3">March</option>
+                                <option value="4">April</option>
+                                <option value="5">May</option>
+                                <option value="6">June</option>
+                                <option value="7">July</option>
+                                <option value="8">August</option>
+                                <option value="9">September</option>
+                                <option value="10">November</option>
+                                <option value="11">December</option>
+
+                            </select>
+                            <select name="day" id="Year">
+                                <option value="0" hidden>Year</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                                <option value="2013">2013</option>
+                                <option value="2012">2012</option>
+                                <option value="2011">2011</option>
+                                <option value="2010">2010</option>
+                                <option value="2009">2009</option>
+                                <option value="2008">2008</option>
+                                <option value="2007">2007</option>
+                                <option value="2006">2006</option>
+                                <option value="2005">2005</option>
+                                <option value="2004">2004</option>
+                                <option value="2003">2003</option>
+                                <option value="2002">2002</option>
+                                <option value="2001">2001</option>
+                                <option value="2000">2000</option>
+                                <option value="1999">1999</option>
+                                <option value="1998">1998</option>
+                                <option value="1997">1997</option>
+                                <option value="1996">1996</option>
+                                <option value="1995">1995</option>
+                                <option value="1994">1994</option>
+                                <option value="1993">1993</option>
+                                <option value="1992">1992</option>
+                                <option value="1991">1991</option>
+                                <option value="1990">1990</option>
+                                <option value="1989">1989</option>
+                                <option value="1988">1988</option>
+                                <option value="1987">1987</option>
+                                <option value="1986">1986</option>
+                                <option value="1985">1985</option>
+                                <option value="1984">1984</option>
+                                <option value="1983">1983</option>
+                                <option value="1982">1982</option>
+                                <option value="1981">1981</option>
+                                <option value="1980">1980</option>
+                                <option value="1979">1979</option>
+                                <option value="1978">1978</option>
+                                <option value="1977">1977</option>
+                                <option value="1976">1976</option>
+                                <option value="1975">1975</option>
+                                <option value="1974">1974</option>
+                                <option value="1973">1973</option>
+                                <option value="1972">1972</option>
+                                <option value="1971">1971</option>
+                                <option value="1970">1970</option>
+                                <option value="1969">1969</option>
+                                <option value="1968">1968</option>
+                                <option value="1967">1967</option>
+                                <option value="1966">1966</option>
+                                <option value="1965">1965</option>
+                                <option value="1964">1964</option>
+                                <option value="1963">1963</option>
+                                <option value="1962">1962</option>
+                                <option value="1961">1961</option>
+                                <option value="1960">1960</option>
+                                <option value="1959">1959</option>
+                                <option value="1958">1958</option>
+                                <option value="1957">1957</option>
+                                <option value="1956">1956</option>
+                                <option value="1955">1955</option>
+                                <option value="1954">1954</option>
+                                <option value="1953">1953</option>
+                                <option value="1952">1952</option>
+                                <option value="1951">1951</option>
+                                <option value="1950">1950</option>
+                                <option value="1949">1949</option>
+                                <option value="1948">1948</option>
+                                <option value="1947">1947</option>
+                                <option value="1946">1946</option>
+                                <option value="1945">1945</option>
+                                <option value="1944">1944</option>
+                                <option value="1943">1943</option>
+                                <option value="1942">1942</option>
+                                <option value="1941">1941</option>
+                                <option value="1940">1940</option>
+                                <option value="1939">1939</option>
+                                <option value="1938">1938</option>
+                                <option value="1937">1937</option>
+                                <option value="1936">1936</option>
+                                <option value="1935">1935</option>
+                                <option value="1934">1934</option>
+                                <option value="1933">1933</option>
+                                <option value="1932">1932</option>
+                                <option value="1931">1931</option>
+                                <option value="1930">1930</option>
+                            </select>
+                        </label>
+
+                        <br>
+                        <label for="cardname">CVC:
+                            
+                            <input id="CVC" type="number" name="" id="" placeholder="e.g:123">
+                        </label>
+                        <br>
+                        
+
+
+                    </div>
+                    <hr>
+                    <div class="homeD">
+                        <label for="">Cash On Delievery:
+                            <input type="checkbox" name="" id="">
+                        </label>
+                    </div>
+                </div>
+                
+                <br>
+                <br>
+                
+            </div>
+            <br>
+            
+        </div>
+        <hr>
+        <br>
+
+        <div class="btnpay">
+            <a href=""> <button>PayUs Now</button></a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- end of main content -->
+
+    <!-- footer starts here -->
+    <footer>
+        <img class="logo-foot" src="../css/img/logo2.png" alt="" srcset="">
+        </img>
+        <div class="aboutus">
+
+            <ul>
+                <h4 class="foot-heading">ABOUT US</h4>
+                <li>About AJY-Company </li>
+                <li>AJY Blogs</li>
+                <li>Contact Us</li>
+                <li>AJY for Business</li>
+            </ul>
+        </div>
+        <div class="customercare">
+
+            <ul>
+                <h4 class="foot-heading2">Customer Care</h4>
+                <li>Help </li>
+                <li>Track Your Order</li>
+                <li>How to Buy</li>
+                <li>Return & Refund</li>
+                <li>Terms & Condition</li>
+            </ul>
+        </div>
+
+        <div class="info-foot">
+            <ul>
+                <li class="info-Q">
+                    <p>What Makes Us better Than Others<br>Online Stores In Pakistan ?</p>
+                </li>
+                <li>Select from the Largest Online Marketplace in Pakistan<br>
+                    Withover thousand of products to select from, (AJY) offers<br> its customers the most comprehensive
+                    listing of
+                    products<br> in the country. Whether you’re looking for bathroom<br> accessories, Bathroom +
+                    flooring Tiles,
+                    Sanitary Wares Items, <br>– there is something for everyone.</li>
+            </ul>
+        </div>
+        <div class="followus">
+            <ul>
+                <li class="info-Q">
+                    <p>Follow Us </p>
+                </li><br>
+                <li> <i class="fab fa-facebook"></i> </li>
+                <li> <i class="fab fa-instagram"></i> </li>
+                <li> <i class="fab fa-whatsapp"></i> </li>
+                <li> <i class="fab fa-youtube"></i> </li>
+            </ul>
+        </div>
+
+
+    </footer>
+    <div class="copyrights">
+        <p>
+            © copyrights 2020 AJYCompany. All Rights Reversed
+        </p>
+        <img src="../css/img/logo2.png" alt="" srcset="">
+    </div>
+
+
+
+
+    <script>
+        function responsiveMobNav() {
+            showHide = document.getElementById('active');
+            if (showHide.style.display === "block") {
+                showHide.style.display = "none"
+            } else {
+                showHide.style.display = "block"
+
+            }
+        }
+    </script>
+
+</body>
+
+</html>
